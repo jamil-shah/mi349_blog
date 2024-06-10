@@ -4,17 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>Contact</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">About</a></li>
-        </ul>
-    </nav>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate a, nulla exercitationem quae provident tempora id, corrupti suscipit, neque modi soluta placeat quaerat hic reiciendis ipsum libero. Dolores, molestias? Nihil.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio hic minus aliquid dolore accusantium architecto illum cumque laudantium nam. Non corrupti quasi pariatur consequatur, ducimus est libero. Doloribus, dicta numquam.</p>
+    <header>
+        <h1>Oxford Community Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <p>If you have any questions, comments, or just want to get in touch, please fill out the form below. We'd love to hear from you!</p>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" name="name" id="name" required><br><br>
+        <label for="email">Email Address:</label><br>
+        <input type="email" name="email" id="email" required><br><br>
+        <label for="reason">Reason for Contact:</label><br>
+            <select id="reason" name="reason">
+                <option value="saying_hi">Saying Hi</option>
+                <option value="contractor">Looking for a Contractor</option>
+                <option value="interview">Interested in an Interview</option>
+            </select><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+            
+            <button type="submit">Submit</button>
+    </form>
+    <p></p>
+    </main>
 </body>
 </html>
