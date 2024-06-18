@@ -1,0 +1,191 @@
+html{
+    background: #e3e3e3;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.highlight {
+    background-color: #ff0;
+}
+
+#newsletter {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+#newsletter input[type="email"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+
+#newsletter button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#newsletter button:hover {
+    background-color: #555;
+}
+
+input[required] {
+    border: 2px solid #333;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.two-column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.two-column > div {
+    flex: 1;
+    padding: 10px;
+}
+
+.three-column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.three-column > div {
+    flex: 1;
+    padding: 10px;
+}
+
+.three-column .main {
+    flex: 2;
+}
+
+.flex-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-form > div {
+    flex: 1;
+    padding: 10px;
+}
+
+.sidebar {
+    background-color: #e9ecef;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.sidebar h3 {
+    color: #333;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 5px 0;
+}
+
+.sidebar ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.sidebar p {
+    margin: 10px 0;
+}
